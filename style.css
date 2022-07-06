@@ -124,7 +124,7 @@ position: absolute;
 }
 .donate_plan{
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
 }
 .donate_plan_header{
     text-align: center;
@@ -191,7 +191,7 @@ color: #707070;
     margin: auto;
     width: 30%;
     padding: 50px 200px;
-    background: lightpink;
+    background: gainsboro;
     border-radius: 5px;
     margin-bottom: 30px;
 
@@ -245,4 +245,49 @@ color: #707070;
     line-height: 24px;
     font-feature-settings: 'liga' ;
     color: white;
+}
+.blog_part{
+    padding: 20px;
+}
+.blog_part_single_1{
+    display: flex;
+    width: 100%;
+}
+.blog_part_single_2 {
+    display: flex;
+    width: 100%;
+}
+.text_area{
+    width: 35%;
+    padding: 2%;
+    margin: 3%;
+    text-align: left;
+}
+.text_area h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+}
+.text_area p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+.text_area a{
+    text-decoration: none;
+    background-color: #FF5959;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: white;
+}
+.half_width{
+        width: 35%;
+        padding: 2%;
+        margin: 3%;
+
 }
