@@ -1,9 +1,9 @@
-    /* margin: 0;
-    font-family: 'Inter', sans-serif;
-    font-family: 'Poppins',sans-serif; */
+
 body{
     margin: 0;
     font-family: 'Inter', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Manrope', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -48,4 +48,201 @@ position: absolute;
     color: white;
     background-color: rgb(255, 30, 0);
     border-radius: 5px;
+}
+.donate_area{
+
+    text-align: center;
+
+}
+.donate_area h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+
+}
+.donate_area p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    padding-bottom: 25px;
+    padding-right: 265px;
+    padding-left: 265px;
+
+}
+.donate_area input{
+    margin: auto;
+    display: flex;
+    text-align: center;
+    width: 45%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(126, 121, 121);
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+
+}
+
+.donate_area a{
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+    color: white;
+    background-color: #FF5959;
+    border-radius: 5px;
+}
+.list_flex{
+    margin: auto;
+    width: 76%;
+
+
+    
+}
+.list_flex ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.list_flex li{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    color: #707070;
+    margin: 10px;
+    padding: 30px;
+    font-size: 30px;
+    line-height: 36px;
+    background-color: ghostwhite;
+    border-radius: 5px;
+}
+.donate_plan{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.donate_plan_header{
+    text-align: center;
+}
+.donate_plan_header h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+
+}
+
+.donate_plan_header p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    padding-right: 265px;
+    padding-left: 265px;
+}
+
+.donate_plan_box{
+
+    padding: 5%;
+    display: flex;
+    text-align: left;
+
+}
+
+.donate_plan_detail {
+    width: 25%;
+    height: 230px;
+    padding: 40px 20px 40px;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+.donate_plan_detail img{
+width: 58px;
+height: 49px;
+}
+.donate_plan_detail h4{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 15px;
+}
+.donate_plan_detail p{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #707070;
+}
+#food{background: rgba(79, 157, 166, 0.1);}
+#shelter{background: rgba(255, 89, 89, 0.1);}
+#education{background: rgba(255, 89, 89, 0.514);}
+
+.news_letter{
+    text-align: center;
+    margin: auto;
+    width: 30%;
+    padding: 50px 200px;
+    background: lightpink;
+    border-radius: 5px;
+    margin-bottom: 30px;
+
+}
+.news_letter input{
+    background-color:rgba(109, 105, 105, 0.1);
+    margin: auto;
+    text-align: center;
+    width: 45%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+.news_letter a{
+        text-decoration: none;
+        text-align: center;
+        padding: 10px 20px;
+        color: white;
+        background-color: #ff8e59;
+        border-radius: 5px;
+}
+.last_part{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    background: #0B0D17;;
+
+}
+
+.last_part h1{
+
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FF5959;
+}
+.last_part P {
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    font-feature-settings: 'liga' ;
+    color: white;
 }
