@@ -197,7 +197,7 @@ color: #707070;
 
 }
 .news_letter input{
-    background-color:rgba(109, 105, 105, 0.1);
+    background-color:rgb(255, 255, 255);
     margin: auto;
     text-align: center;
     width: 45%;
