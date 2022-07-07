@@ -208,6 +208,7 @@ color: #707070;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
+    border-radius: 5px;
 }
 .news_letter a{
         text-decoration: none;
