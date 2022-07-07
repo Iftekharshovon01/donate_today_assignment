@@ -215,8 +215,9 @@ color: #707070;
         text-align: center;
         padding: 10px 20px;
         color: white;
-        background-color: #ff8e59;
+        background-color: #ff6459;
         border-radius: 5px;
+        margin-left: -10px
 }
 .last_part{
     display: flex;
